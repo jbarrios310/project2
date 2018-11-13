@@ -1,0 +1,67 @@
+.head{
+	color:#FFFFFF;
+	text-align: center;
+	font-size: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}   
+
+body{
+	background-color: #DF9090;
+}
+
+.grid{
+display: grid; 
+padding: lem;
+grid-template-columns: 1fr;
+grid-template-rows: 1fr 1fr;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #CBCB2B;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #90C5DF;
+}
+
+.column{ 
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	text-align: center;
+}
+
+h1{ 
+	color:#FFFFFF;
+	text-align:center;
+	font-size: 80px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 1;
+	grid-row-end: span 1;
+}   
+
+.column2{ 
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
+	grid-row-end: span 1;
+	text-align: center;
+}
