@@ -106,5 +106,10 @@ h1{
 	font-family: "Comic Sans MS", cursive, sans-serif;
 }
 
-
+.video{
+   grid-row-start: 4;
+	grid-row-end: span 1;
+	grid-column-start: 2;
+	grid-column-end: span 2
+}
 
