@@ -13,7 +13,7 @@ body{
 display: grid; 
 padding: lem;
 grid-template-columns: 1fr;
-grid-template-rows: 1fr 1fr;
+grid-template-rows: 1fr 1fr 1fr;
 }
 
 ul {
@@ -55,6 +55,17 @@ h1{
 	grid-column-start: 1;
 	grid-column-end: span 1;
 	grid-row-start: 1;
+	grid-row-end: span 1;
+}   
+
+h2{
+	color:#A0C7E9;
+	text-align:center;
+	font-size: 30px;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+	grid-column-start: 1;
+	grid-column-end: span 1;
+	grid-row-start: 2;
 	grid-row-end: span 1;
 }   
 
